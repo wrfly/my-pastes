@@ -1,0 +1,38 @@
+## create a ubuntu
+13:29:21.612340121 container create 889 (image=ubuntu, name=uu)
+13:29:21.654142883 network connect 01a (container=889
+13:29:21.654922573 container start 889 (image=ubuntu, name=uu)
+## destory a ubuntu
+13:30:30.272940657 container kill 889 (image=ubuntu, name=uu)
+13:30:30.315738818 container die 889 (image=ubuntu, name=uu)
+13:30:30.454947321 network disconnect 01a (container=889
+13:30:30.505458810 container stop 889 (image=ubuntu, name=uu)
+13:30:30.547161821 container destroy 889 (image=ubuntu, name=uu)
+
+
+
+## create a alpine
+13:35:07.001946194+08:00 container create c6e (image=alpine, name=ap)
+13:35:07.046088801+08:00 network connect 01a 
+13:35:07.047008991+08:00 container start c6e (image=alpine, name=ap)
+## destory a alpine
+13:35:34.623224144+08:00 container kill c6e (image=alpine, name=ap)
+13:35:44.623897222+08:00 container kill c6e (image=alpine, name=ap)
+13:35:44.667667242+08:00 container die c6e (image=alpine, name=ap)
+13:35:44.801458419+08:00 network disconnect 01a 
+13:35:44.853849785+08:00 container stop c6e (image=alpine, name=ap)
+13:35:44.892463211+08:00 container destroy c6e (image=alpine, name=ap)
+
+
+
+## create a supervisor and nginx and php
+13:29:43.937660291 container create b4e (image=snp, name=sh)
+13:29:43.989081729 network connect 01a (container=b4e
+13:29:43.989739319 container start b4e (image=snp, name=sh)
+## destory a supervisor and nginx and php
+13:30:26.512157802 container kill b4e (image=snp, name=sh)
+13:30:27.591622926 container die b4e (image=snp, name=sh)
+13:30:27.711536517 network disconnect 01a (container=b4e
+13:30:27.754046059 container stop b4e (image=snp, name=sh)
+13:30:27.808103620 container destroy b4e (image=snp, name=sh)
+
